@@ -44,4 +44,5 @@ for a in range(n):
 print(len(numlist))
 for n in sorted(numlist):
     print(n)
+    
 print(matrix)
