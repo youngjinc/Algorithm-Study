@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
 
 	solve();
 
-	cout << num << endl;
+	cout << num << "\n";
 
 	return 0;
 }
