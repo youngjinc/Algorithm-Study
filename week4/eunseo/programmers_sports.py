@@ -13,6 +13,5 @@ def solution(n, lost, reserve):
         elif i+1 in new_reserve :
             answer +=1 
             new_reserve.remove(i+1)
-
         
     return answer
