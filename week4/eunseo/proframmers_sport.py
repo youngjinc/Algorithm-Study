@@ -14,6 +14,5 @@ def solution(n, lost, reserve):
             answer +=1 
             n_reserve.remove(i+1)
 
-            
-
+        
     return answer
