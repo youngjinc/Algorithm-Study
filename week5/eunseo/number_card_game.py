@@ -7,4 +7,6 @@ for i in range(N):
     minValue = min(data)
     result = max(result,minValue)
 
+
+
 print(result)
