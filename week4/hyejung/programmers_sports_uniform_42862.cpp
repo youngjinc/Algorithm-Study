@@ -16,7 +16,6 @@ int solution(int n, vector<int> lost, vector<int> reserve)
 {
     int answer = 0;            //수업을 들을 수 있는 학생들의 수
     vector<int> student(n, 0); //n만큼 0으로 초기화
-
     for (int i = 0; i < lost.size(); i++)
     {
         student[lost[i] - 1] -= 1; //student vector에 도난 당한 애들 입력
